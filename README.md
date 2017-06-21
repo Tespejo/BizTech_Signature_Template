@@ -1,2 +1,3 @@
 # BizTech_Signature_Template
-An email signature that allows for 
+An email template that allows user-friendly and 'client'-friendly population of the signature. 
+
