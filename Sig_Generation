@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Signature</title>
+   </head>
+   <body><!-- comment syed  This is a non-standard html code signature that fits in mac and win os with inline styles-->
+      <font style="font-family:'Helvetica', sans-serif; font-size: 9pt; color:#646869; ">
+        <h1> BizTech Email Signature Generator.</h1>
+        <h3>Please copy and paste this into the standard signature in your client</h3>
+        <br/>
+         <table width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px">
+            <tr>
+               <td colspan="8" style="width:350px" width="350px">
+                  <font style="font-weight:bolder;font-size:10pt; color:#00AEEF;"><span id='empName'></span>, <span id='empTitle'></span></font>
+                  <br />
+                  <br/>
+                  <img src="http://btes.com.au/content/dam/btes-site-express/BizTechLogo.png" alt='BizTech Logo' style='height:35px; margin-left:0px;' nosend="1" border="0">	 
+                     <br />
+
+
+				   <font style="font-weight:500;font-size:9pt; color:#646869;">E.&nbsp; <a style ="color:#646869; a:visited color:#646869; a:hover color:#646869; a:active color: inherit;" id='dynEmpEmail' href=''> <span id='empEmail' style =" "></span></a>
+           </font>
+
+
+                     <br />
+					<font style="font-weight:500;font-size:9pt; color:#646869; a:visited color:#646869; a:hover color:#646869; a:active color: inherit;">	 
+                    T.&nbsp; <span id='teleId' href=''></span>
+                     &nbsp;<span style ="color: #aeb1b2">|</span>&nbsp;
+                    M.&nbsp; <span id='mobileId' style ="text-align: left;"></span>
+                     <br />
+                  <hr style = "width:50%; text-align:left; margin: 0 auto 0 0;" />
+                  </font>
+                  <font style="font-size:9pt; color:#646869; "><a style ="color:#646869; a:visited color:#646869; a:hover color:#646869; a:active color: inherit; "href = "http://www.btes.com.au/">www.btes.com.au</a>
+                  <br/>		
+                  <span id='addId'></span>
+                  <br />
+                  </font>
+                  <hr style = "width:50%; text-align:left; margin: 0 auto 0 0; padding-bottom: 0px;"  />
+               </td>
+            </tr>
+
+            <tr>
+               <td valign="top" style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;">
+
+               <!--Adobe Certifications -->
+               <img style="padding-left: 0px; padding-top: 3px; padding-bottom: 0px; padding-right: 0px;" src="image/AdobeSpecalised2.png" nosend="1" border="0" height="32" alt="Specialized in AEM, Campaign & Analytics"> 
+               </td>
+            </tr>
+         </table>
+
+
+<br />
+<br />
+
+
+<h3> Please copy and paste this into the reply signature in your client </h3>
+<br />
+       <!-- <table width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px">
+            <tr>
+               <td colspan="8" style="width:350px" width="350px">
+              <font style="font-weight:bolder;font-size:10pt; color:#00AEEF;"> <span id='empName'></span>, <span id='empTitle'></span> @ BizTech</font>
+              </font>
+<br />
+               <font style="font-weight:500;font-size:9pt; color:#646869;">E.&nbsp; <a style ="color:#646869; a:visited color:#646869; a:hover color:#646869; a:active color: inherit;" id='dynEmpEmail' href=''> <span id='empEmail' style =" "></span></a>
+               </font>
+               M.&nbsp;<span id='mobileId' style ="text-align: left;"></span>
+               </td>
+            </tr>
+         </table> -->
+
+       <table width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px">
+            <tr>
+               <td colspan="8" style="width:350px" width="350px">
+                  <font style="font-weight:bolder;font-size:10pt; color:#00AEEF;"><span id='replyEmpName'></span>, <span id='replyEmpTitle'></span> @BizTech</font>
+                  <br />
+                  
+                 
+           <font style="font-weight:500;font-size:9pt; color:#646869;">E.&nbsp; <a style ="color:#646869; a:visited color:#646869; a:hover color:#646869; a:active color: inherit;" id='BdynamicEmail' href=''> <span id='replyEmpEmail'></span> </a>
+           </font>
+            &nbsp;<span style ="color: #aeb1b2">|</span> &nbsp;
+          <font style="font-weight:500;font-size:9pt; color:#646869;">  
+                    M.&nbsp; <span id='replyEmpMobile' style ="text-align: left;"></span>
+                     <br />
+          </font>
+               </td>
+            </tr>
+
+         </table>
+
+
+      </font>
+	   <script type="text/javascript">
+
+		   function getParameterByName(name, url) {
+				if (!url) url = window.location.href;
+				name = name.replace(/[\[\]]/g, "\\$&");
+				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+					results = regex.exec(url);
+				if (!results) return null;
+				if (!results[2]) return '';
+				return decodeURIComponent(results[2].replace(/\+/g, " "));
+			}
+		    var teleId = getParameterByName('teleId');
+		    var mobileId = getParameterByName('mobileId');
+		    var addId = getParameterByName('addId');
+		    var empName = getParameterByName('empName');
+		    var empTitle = getParameterByName('empTitle');
+        var empEmail = getParameterByName('empEmail');
+        
+		    document.getElementById('teleId').innerHTML= teleId;
+		    document.getElementById('mobileId').innerHTML= mobileId;
+		    document.getElementById('addId').innerHTML= addId;
+		    document.getElementById('empName').innerHTML= empName;
+		    document.getElementById('empTitle').innerHTML= empTitle;
+        document.getElementById('empEmail').innerHTML= empEmail;
+
+      
+        var dynamicEmail = document.getElementById('dynEmpEmail');
+        dynamicEmaila = dynamicEmail.setAttribute('href','mailto:' + empEmail);
+        
+
+// REPLY SIGNATURE DATA SETTING //
+    
+    window.onload = function() {
+     var replyEmpName = getParameterByName('replyEmpName');
+        var replyEmpTitle = getParameterByName('replyEmpTitle');
+        var replyEmpMobile = getParameterByName('replyEmpMobile');
+        var replyEmpEmail = getParameterByName('replyEmpEmail');
+      
+        document.getElementById('replyEmpName').innerHTML= replyEmpName;
+        document.getElementById('replyEmpTitle').innerHTML= replyEmpTitle;
+        document.getElementById('replyEmpMobile').innerHTML= replyEmpMobile;
+        document.getElementById('replyEmpEmail').innerHTML= replyEmpEmail;
+
+        var BdynamicEmail = document.getElementById('BdynamicEmail');
+        BdynamicEmaila = BdynamicEmail.setAttribute('href','mailto:' + replyEmpEmail);
+}
+       
+
+
+
+
+
+
+/*
+    if (dynamicTelephone != "") 
+      {
+        var dynamicTelephone = document.getElementById('teleId');
+        dynamicTelephonea = dynamicTelephone.setAttribute('href','tel:' + teleId)
+        dynamicTelephoneb = dynamicTelephonea.setAttributeNode('tel').value('teleId');
+        dynamicTelephoneb.value('teleId');
+      }
+*/
+/*
+    if (dynamicMobile != "") 
+      {
+        var dynamicMobile = document.getElementById('dynMobileId');
+        dynamicMobilea = dynamicMobile.setAttribute('href','tel:' + mobileId)
+        dynamicMobileb = dynamicMobilea.setAttributeNode('tel').value('mobileId');
+        dynamicTelephoneb.value('mobileId');
+      }
+*/
+        // var dynamicTelephone = document.getElementById('dynTeleId').setAttribute('href','tel:' + teleId).setAttributeNode('tel').value('teleId');
+        //   dynamicTelephone.value('teleId');
+
+        // var dynamicMobile = document.getElementById('dynMobileId').setAttribute('href','tel:' + mobileId).setAttributeNode('tel').value('mobileId');
+        //   dynamicTelephone.value('mobileId');
+
+        //var dynamicTelephone =
+
+        //var dynamicAddress = document.getElementsByTagName
+
+
+
+   /*     document.getElementsByTagName('a').setAttribute('href')
+             var anchor = document.getElementsByTagName('a');
+             var att = document.createAttribute('href');
+             var xmailto = document.createAttribute('mailto:');
+             att.value = 'mailto';
+             xmailto.value = 'empEmail';
+             anchor.setAttributeNode(att);
+         document.getElementById('empEmail').href.innerHTML = empEmail;
+         document.getElementsByTagName("a") [0].setA = empEmail;
+         document.getElementsByTagName('a')[0].setAttribute('href','empEmail'); */
+
+		//alert(teleId);
+	   </script>
+   </body>
+</html>
+
