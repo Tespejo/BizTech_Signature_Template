@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>BizTemplates</title>
+   </head>
+   <body><!-- comment syed  This is a non-standard html code signature that fits in mac and win os with inline styles-->
+      <font style="font-family:'Helvetica', sans-serif; font-size: 9pt; color:#646869; ">
+		 <form action="BizTechEmailSig.htm" method="GET"> 
+      <h1> BizTech Email Signature Generator.</h1>
+       <h3> Please fill out : this will be your standard signature. </h3>
+         <table width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px">
+            <tr>
+               <td colspan="8" style="width:350px" width="350px">
+				  <font style="font-weight:bolder;font-size:10pt; color:#00AEEF;"> <input name='empName' placeholder="Firstname Lastname" id='empName'>, <input id='empTitle'  placeholder="Position/Title"name='empTitle'></font>
+                  <br />
+                  <br/>
+                  <img src="http://btes.com.au/content/dam/btes-site-express/BizTechLogo.png" alt='BizTech Logo'style='height:35px; margin-left:0px;' nosend="1" border="0">	
+                     <br />
+				   <font style="font-weight:400; font-size:9pt; color:#646869; text-decoration: none;">E.&nbsp;<input size ="35" placeholder="Email : @btes.com.au" name='empEmail' id='empEmail'> 
+               </font>
+                     <br />
+					<font style="font-weight:500;font-size:9pt; color:#646869;">	 
+                     T.&nbsp; <input size ="35" id='teleId' placeholder="telephone: 1800 115 825" name='teleId' type=text style='width:100px'>
+                     <br />
+                     M.&nbsp;<input size ="35" id='mobileId' placeholder="mobile: +61 (0) 467 998 311" name='mobileId' type=text style='width:100px'>	
+                     <br />
+                     <hr />
+                  </font>
+                  <font style="font-size:9pt; color:#646869;">www.btes.com.au
+                  <br/>		
+                  A:&nbsp; <input size ="35" id='addId' name='addId' placeholder="address: 209 Cecil St, South Melbourne VIC 3205" type=text style='width:200px'>	 
+                  <br />
+                  </font>
+                  <hr />
+               </td>
+            </tr>
+			 
+         </table>
+
+<br />
+         <h3> Please fill out : this will be your reply signature. </h3>
+         <table width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px">
+            <tr>
+               <td colspan="8" style="width:350px" width="350px">
+              <font style="font-weight:bolder;font-size:10pt; color:#00AEEF;"> 
+
+               <input name='replyEmpName' placeholder="Firstname Lastname"  id='replyEmpName'>
+               <input id='replyEmpTitle' placeholder="Position/Title" name='replyEmpTitle'> @ BizTech
+              </font>
+<br />
+                <font style="font-weight:400; font-size:9pt; color:#646869; text-decoration: none;">E.&nbsp;<input size ="25" placeholder="Email : @btes.com.au" name='replyEmpEmail' id='replyEmpEmail'> 
+               </font>
+
+               <font style="font-weight:500;font-size:9pt; color:#646869;">
+               M.&nbsp;
+               <input size ="35" id='replyEmpMobile' placeholder="mobile: +61 (0) 467 998 311" name='replyEmpMobile' type=text style='width:100px'> 
+               </font>
+               </td>
+            </tr>
+
+            <tr>
+           <td colspan="8">
+             <input id='submit' type=submit value='Submit'  style='cursor:pointer;'>
+             </td>
+          </tr>
+
+         </table>
+
+
+
+
+		</form>
+      </font>
+	   <!--<script>
+         // document.cookie is not a real string
+         document.cookie = 'form/title='
+         document.cookie = 'form/text=I am demoing how to use cookies in JavaScript; expires=Tue, 29 Aug 2017 12:00:01 UT';
+         setTimeout(function(){
+             window.location = "./form-cookies.html";
+         }, 1000);
+     </script>-->
+   </body>
+</html>
+
+
+    
